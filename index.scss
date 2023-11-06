@@ -1,0 +1,35 @@
+$navbar-color: #1D3557;
+$contacts-color: #E63946;
+$background-color-gray: #F1FAEE;
+$footer-color: #457B9D;
+$text-blue-color: #A8DADC;
+
+body {
+    margin: 0;
+    background-color: $background-color-gray;
+}
+
+img {
+    width: 75px;    
+}
+
+header {
+    background-color: $navbar-color;
+    padding: 16px;
+    text-align: center;
+
+    .logo-fst {
+        margin-bottom: 32px;
+    }
+
+    #nav-items {
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            color: $text-blue-color;
+        }        
+    }
+}
+

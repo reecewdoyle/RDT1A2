@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #F1FAEE;
+}
+
+img {
+  width: 75px;
+}
+
+header {
+  background-color: #1D3557;
+  padding: 16px;
+  text-align: center;
+}
+header .logo-fst {
+  margin-bottom: 32px;
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+header #nav-items a {
+  text-decoration: none;
+  color: #A8DADC;
+}/*# sourceMappingURL=index.css.map */
