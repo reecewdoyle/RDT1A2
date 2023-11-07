@@ -1,6 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:wght@300&family=Signika+Negative:wght@500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Signika Negative", sans-serif;
+}
+
 body {
   margin: 0;
   background-color: #F1FAEE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -12,14 +23,80 @@ header {
   padding: 16px;
   text-align: center;
 }
-header .logo-fst {
-  margin-bottom: 32px;
+header a {
+  text-decoration: none;
+}
+header .name {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+header .name #rd-text {
+  color: #F1FAEE;
+  font-size: 48px;
+}
+header .name #fst-text {
+  color: #F1FAEE;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+header #sub-text {
+  color: #F1FAEE;
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-style: italic;
 }
 header #nav-items {
   display: flex;
   justify-content: space-around;
 }
 header #nav-items a {
-  text-decoration: none;
   color: #A8DADC;
+  font-size: 24px;
+  background-color: #457B9D;
+  padding: 15px;
+  border: 1px solid #F1FAEE;
+  border-radius: 15%;
+}
+
+footer {
+  background-color: #1D3557;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+footer .social-media a i {
+  font-size: 30px;
+  color: #F1FAEE;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section .main-image img {
+  width: 200px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+main section .main-text {
+  padding: 5px;
+  color: #1D3557;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+main section .contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(230, 57, 70, 0.75);
+  width: 100%;
+  font-size: 18px;
+  color: #F1FAEE;
 }/*# sourceMappingURL=index.css.map */
