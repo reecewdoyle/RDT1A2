@@ -1,8 +1,8 @@
-$navbar-color: #1D3557;
-$contacts-color: #E63946;
-$background-color-gray: #F1FAEE;
-$footer-color: #457B9D;
-$text-blue-color: #A8DADC;
+@import "./styles/defaults/colours";
+@import "./styles/defaults/breakpoints";
+@import "./styles/components/header";
+@import "./styles/components/footer";
+@import "./styles/components/utils";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:wght@300&family=Signika+Negative:wght@500&display=swap');
@@ -11,12 +11,6 @@ $text-blue-color: #A8DADC;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Signika Negative', sans-serif;
-}
-
-@mixin background-properties() {
-    background-color: $navbar-color;
-    padding: 16px;
-    text-align: center;
 }
 
 body {
@@ -31,113 +25,6 @@ body {
 
 img {
     width: 75px;    
-}
-
-header {
-    @include background-properties();
-
-    .logo-name {
-        @media screen and (max-width: 600px) {
-            margin: 48px;
-        }
-    }
-
-        .name {
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            
-            #rd-text {
-                color: $background-color-gray;
-                font-size: 48px;
-            }
-            
-            #fst-text {
-                color: $background-color-gray;
-                font-size: 40px;
-                // margin-bottom: 10px;
-            }
-            
-            #sub-text {
-                color: $background-color-gray;
-                font-size: 24px;
-                // margin-bottom: 16px;
-                font-style: italic;
-                
-            }
-        }
-    
-        #nav-items {
-            display: flex;
-            justify-content: space-around;
-            
-            
-            a {
-                color: $text-blue-color;
-                font-size: 24px;
-                background-color: $footer-color;
-                padding: 15px;
-                border: 1px solid $background-color-gray;
-                border-radius: 15%;
-            }        
-        }
-    
-        a {
-            text-decoration: none;
-        }
-    
-}
-
-@media screen and (min-width: 600px) {
-        
-        header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-around;
-
-        .logo-name {
-            
-            .name {
-                margin-bottom: 0;
-            }
-        }
-
-        #nav-items {
-            width: 50%;
-        }
-    }
-}
-
-footer {
-    @include background-properties();
-
-      
-
-    .social-media {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 25px;
-        margin-top: 25px;
-        
-        a {
-            i {
-                font-size: 30px;
-                color: $background-color-gray
-                
-                
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 600px) {
-    footer {
-        .social-media {
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
 }
 
 main {
@@ -169,11 +56,6 @@ main {
             width: 100%;
             font-size: 18px;
             color: $background-color-gray
-
         }
-
     }
-    
-
-    
 }
