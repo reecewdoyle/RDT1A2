@@ -23,8 +23,10 @@ header {
   padding: 16px;
   text-align: center;
 }
-header a {
-  text-decoration: none;
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin: 48px;
+  }
 }
 header .name {
   display: flex;
@@ -38,12 +40,10 @@ header .name #rd-text {
 header .name #fst-text {
   color: #F1FAEE;
   font-size: 40px;
-  margin-bottom: 10px;
 }
-header #sub-text {
+header .name #sub-text {
   color: #F1FAEE;
-  font-size: 20px;
-  margin-bottom: 16px;
+  font-size: 24px;
   font-style: italic;
 }
 header #nav-items {
@@ -58,7 +58,23 @@ header #nav-items a {
   border: 1px solid #F1FAEE;
   border-radius: 15%;
 }
+header a {
+  text-decoration: none;
+}
 
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header #nav-items {
+    width: 50%;
+  }
+}
 footer {
   background-color: #1D3557;
   padding: 16px;
@@ -75,6 +91,13 @@ footer .social-media a i {
   color: #F1FAEE;
 }
 
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 main section {
   display: flex;
   flex-direction: column;
