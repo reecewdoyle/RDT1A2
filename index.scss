@@ -4,23 +4,19 @@
 @import "./styles/components/footer";
 @import "./styles/components/utils";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:wght@300&family=Signika+Negative:wght@500&display=swap');
-
-* {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Signika Negative', sans-serif;
-}
-
 body {
     margin: 0;
-    background-color: $background-color-gray;
+    background-color: $background-color-dark-gray;
+
+    background: #748294 url("images/newy1.jpeg") 70% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 img {
@@ -32,30 +28,36 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        font-family: 'Roboto Mono', monospace;
+        
         .main-image {
             
             img {
-                width: 200px;
+                width: 300px;
                 clip-path: circle();               
             }
         }
-
+        
         .main-text {
-            padding: 5px;
-            color: $navbar-color;
-            font-family: 'Roboto', sans-serif;
-            font-size: 15px;
+
+            p {
+                padding: 5px;
+                color: $background-color-light-gray;
+                font-size: 2rem;
+                font-weight: 500;
+                background-color: $background-color-dark-gray;
+                text-align: center;
+            }
         }
 
         .contact-section {
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: rgb(230, 57, 70, 0.75);
+            background-color: $contacts-color;
             width: 100%;
             font-size: 18px;
-            color: $background-color-gray
+            color: $background-color-light-gray
         }
     }
 }
