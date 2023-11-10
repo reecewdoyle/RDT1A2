@@ -1,1 +1,139 @@
-/*# sourceMappingURL=bio.css.map */
+header {
+  background-color: rgba(29, 53, 87, 0.75);
+  padding: 16px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+header a {
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin: 48px;
+  }
+}
+header .name {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+header .name #rd-text {
+  color: #F1FAEE;
+  font-size: 48px;
+}
+header .name #fst-text {
+  color: #F1FAEE;
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+}
+header .name #sub-text {
+  color: #F1FAEE;
+  font-size: 24px;
+  font-style: italic;
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+header #nav-items a {
+  color: #A8DADC;
+  font-size: 24px;
+  background-color: #457B9D;
+  padding: 15px;
+  border: 1px solid #F1FAEE;
+  border-radius: 20%;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header #nav-items {
+    width: 50%;
+  }
+}
+footer {
+  background-color: rgba(29, 53, 87, 0.75);
+  padding: 16px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+footer .social-media a i {
+  font-size: 30px;
+  color: #F1FAEE;
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  background-color: rgba(116, 130, 148, 0.75);
+  background: #748294 url("./images/newy.jpeg") 70% no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width: 75px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+main section .main-image img {
+  width: 300px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+main section .main-text p {
+  padding: 5px;
+  color: #F1FAEE;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: rgba(116, 130, 148, 0.75);
+  text-align: center;
+}
+main section .contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(230, 57, 70, 0.5);
+  width: 100%;
+  font-size: 18px;
+  color: #F1FAEE;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(116, 130, 148, 0.75);
+  background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=bio.css.map */
