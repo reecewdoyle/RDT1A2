@@ -126,14 +126,41 @@ main section .contact-section {
   color: #F1FAEE;
 }
 
+main a {
+  text-decoration: none;
+  color: #1D3557;
+  font-family: "Roboto Mono", monospace;
+}
+main a p {
+  font-size: 1.5rem;
+}
+main a h1 {
+  font-size: 2rem;
+}
+main a .article {
+  display: flex;
+  flex-direction: column-column;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+main a .article .blog-image {
+  width: 250px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  margin-right: 10rem;
+}
+main a .article .blog-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 body {
   margin: 0;
   background-color: rgba(116, 130, 148, 0.75);
   background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }/*# sourceMappingURL=blog.css.map */

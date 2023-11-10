@@ -1,5 +1,44 @@
 @import "../../index.scss";
 
+main {
+    a {
+        text-decoration: none;
+        color: $navbar-color-dark;
+        font-family: 'Roboto Mono', monospace;
+
+        p {
+            font-size: 1.5rem;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+            
+        .article {
+            display: flex;
+            flex-direction: column-column;
+            // width: 100vh;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 2rem 1rem;
+            margin: 1rem;
+            
+            .blog-image {
+                width: 250px;
+                clip-path: circle();
+                margin-right: 10rem;
+            }
+            .blog-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                }        
+                
+    }
+}
+    
+   
+}
+
 body {
     margin: 0;
     background-color: $background-color-dark-gray;
@@ -8,9 +47,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
 
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    // min-height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
 
 }
