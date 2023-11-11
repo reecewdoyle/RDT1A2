@@ -33,7 +33,24 @@ main {
             // margin: 1.5rem;
         }
   }
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+        a {
+            text-decoration: none;
+            font-family: 'Roboto Mono', monospace;
+            size: 2rem;
+            color: $text-blue-color;
+            background-color: $footer-color;
+            padding: 1rem;
+            border: 1px solid $text-blue-color;
+            border-radius: 15%;
+        }
 
+}
 
 body {
     margin: 0;
