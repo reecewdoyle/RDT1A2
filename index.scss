@@ -20,41 +20,34 @@ body {
 }
 
 
-main {
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family: 'Roboto Mono', monospace;
+// main {
+//     section {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         font-family: 'Roboto Mono', monospace;
         
       
-        .main-image {
+//         .main-image {
             
-            img {
-                width: 300px;
-                clip-path: circle();               
-            }
-        }
+//             img {
+//                 width: 300px;
+//                 clip-path: circle();               
+//             }
+//         }
         
-        .main-text {
+//         .main-text {
 
-            p {
-                padding: 5px;
-                color: $background-color-light-gray;
-                font-size: 2rem;
-                font-weight: 500;
-                background-color: $background-color-dark-gray;
-                text-align: center;
-            }
-        }
+//             p {
+//                 padding: 5px;
+//                 color: $background-color-light-gray;
+//                 font-size: 2rem;
+//                 font-weight: 500;
+//                 background-color: $background-color-dark-gray;
+//                 text-align: center;
+//             }
+//         }
 
-        .contact-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: $contacts-color;
-            width: 100%;
-            color: $background-color-light-gray
-        }
-    }
-}
+
+//     }
+// }
