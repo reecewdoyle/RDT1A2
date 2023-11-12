@@ -122,13 +122,13 @@ main section .contact-section {
   align-items: center;
   background-color: rgba(230, 57, 70, 0.5);
   width: 100%;
-  font-size: 18px;
+  font-size: 0.1rem;
   color: #F1FAEE;
 }
 
 body {
   margin: 0;
-  background-color: rgba(116, 130, 148, 0.75);
+  background-color: rgba(255, 255, 255, 0.7);
   background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -144,13 +144,13 @@ main {
   align-items: center;
 }
 main .form-div {
-  background-color: rgba(116, 130, 148, 0.75);
+  background-color: rgba(255, 255, 255, 0.7);
   width: 90%;
 }
 main .form-div h1 {
   font-family: "Roboto Mono", monospace;
   size: 3rem;
-  color: #F1FAEE;
+  color: #1D3557;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -164,7 +164,7 @@ main .form-div form .form-elements label {
   font-size: 1.5rem;
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  color: #F1FAEE;
+  color: #1D3557;
 }
 main .form-div form .form-elements .form-input {
   border: 1px solid #1D3557;

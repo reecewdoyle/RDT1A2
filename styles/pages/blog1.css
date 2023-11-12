@@ -122,7 +122,7 @@ main section .contact-section {
   align-items: center;
   background-color: rgba(230, 57, 70, 0.5);
   width: 100%;
-  font-size: 18px;
+  font-size: 0.1rem;
   color: #F1FAEE;
 }
 

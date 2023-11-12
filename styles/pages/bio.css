@@ -122,8 +122,36 @@ main section .contact-section {
   align-items: center;
   background-color: rgba(230, 57, 70, 0.5);
   width: 100%;
-  font-size: 18px;
+  font-size: 0.1rem;
   color: #F1FAEE;
+}
+
+main {
+  display: flex;
+  font-family: "Roboto Mono", monospace;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #1D3557;
+}
+main h1 {
+  text-align: center;
+}
+main p {
+  font-size: 1.2rem;
+}
+main li {
+  font-size: 1.2rem;
+}
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+main figcaption {
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 body {

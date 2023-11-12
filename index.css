@@ -93,10 +93,6 @@ body {
   justify-content: space-between;
 }
 
-img {
-  width: 75px;
-}
-
 main section {
   display: flex;
   flex-direction: column;
@@ -122,6 +118,5 @@ main section .contact-section {
   align-items: center;
   background-color: rgba(230, 57, 70, 0.5);
   width: 100%;
-  font-size: 18px;
   color: #F1FAEE;
 }/*# sourceMappingURL=index.css.map */
