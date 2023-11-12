@@ -70,7 +70,7 @@ footer .social-media {
   margin-top: 25px;
 }
 footer .social-media a i {
-  font-size: 30px;
+  font-size: 2.5rem;
   color: #F1FAEE;
 }
 
@@ -91,26 +91,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-main section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Roboto Mono", monospace;
-}
-main section .main-image img {
-  width: 300px;
-  -webkit-clip-path: circle();
-          clip-path: circle();
-}
-main section .main-text p {
-  padding: 5px;
-  color: #F1FAEE;
-  font-size: 2rem;
-  font-weight: 500;
-  background-color: rgba(116, 130, 148, 0.75);
-  text-align: center;
 }
 
 body {
@@ -136,12 +116,15 @@ main section .main-image img {
   -webkit-clip-path: circle();
           clip-path: circle();
 }
+main section .main-text {
+  width: 100%;
+}
 main section .main-text p {
   padding: 5px;
-  color: #F1FAEE;
+  color: #1D3557;
   font-size: 2rem;
   font-weight: 500;
-  background-color: rgba(116, 130, 148, 0.75);
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
 }
 

@@ -70,7 +70,7 @@ footer .social-media {
   margin-top: 25px;
 }
 footer .social-media a i {
-  font-size: 30px;
+  font-size: 2.5rem;
   color: #F1FAEE;
 }
 
@@ -91,37 +91,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-main section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Roboto Mono", monospace;
-}
-main section .main-image img {
-  width: 300px;
-  -webkit-clip-path: circle();
-          clip-path: circle();
-}
-main section .main-text p {
-  padding: 5px;
-  color: #F1FAEE;
-  font-size: 2rem;
-  font-weight: 500;
-  background-color: rgba(116, 130, 148, 0.75);
-  text-align: center;
-}
-main section .contact-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(230, 57, 70, 0.5);
-  width: 100%;
-}
-main section .contact-section p {
-  font-size: 1.5rem;
-  color: #F1FAEE;
 }
 
 body {
