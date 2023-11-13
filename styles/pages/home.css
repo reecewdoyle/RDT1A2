@@ -127,6 +127,10 @@ main section .main-text p {
   font-size: 1.5rem;
 }
 
+footer {
+  margin-top: auto;
+}
+
 @media screen and (max-width: 600px) {
   main section .main-image img {
     width: 180px;
