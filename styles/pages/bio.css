@@ -65,6 +65,10 @@ footer {
   padding: 16px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 footer .social-media {
   display: flex;
@@ -83,8 +87,19 @@ footer .social-media a i {
     margin-right: auto;
   }
 }
-main {
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgba(116, 130, 148, 0.75);
+  background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
   font-family: "Roboto Mono", monospace;
   background-color: rgba(255, 255, 255, 0.8);
   color: #1D3557;
@@ -111,16 +126,4 @@ main img {
 main figcaption {
   text-align: center;
   font-size: 1.6rem;
-}
-
-body {
-  margin: 0;
-  background-color: rgba(116, 130, 148, 0.75);
-  background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }/*# sourceMappingURL=bio.css.map */

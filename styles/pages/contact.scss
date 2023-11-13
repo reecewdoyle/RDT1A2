@@ -1,6 +1,7 @@
 @import "../../index.scss";
 
 body {
+    min-height: 100vh;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.7);
 
@@ -8,10 +9,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
 
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
 
 }
 
@@ -31,8 +31,7 @@ main {
         size: 3rem;
         color: $navbar-color-dark;
         text-align: center;
-        // padding-top: 1rem;
-        // padding-bottom: 2rem;
+
 
     }
 

@@ -1,6 +1,7 @@
 @import "../../index.scss";
 
 body {
+    min-height: 100vh;
     margin: 0;
     background-color: $background-color-dark-gray;
     background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
