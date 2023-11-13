@@ -81,12 +81,6 @@ footer .social-media a i {
   color: #F1FAEE;
 }
 
-@media screen and (max-width: 600px) {
-  footer .social-media {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 body {
   min-height: 100vh;
   margin: 0;
@@ -125,10 +119,6 @@ main section .main-text p {
   width: 100%;
   color: #F1FAEE;
   font-size: 1.5rem;
-}
-
-footer {
-  margin-top: auto;
 }
 
 @media screen and (max-width: 600px) {

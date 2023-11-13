@@ -79,11 +79,4 @@ footer .social-media {
 footer .social-media a i {
   font-size: 2.5rem;
   color: #F1FAEE;
-}
-
-@media screen and (max-width: 600px) {
-  footer .social-media {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }/*# sourceMappingURL=index.css.map */

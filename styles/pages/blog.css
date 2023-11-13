@@ -81,12 +81,6 @@ footer .social-media a i {
   color: #F1FAEE;
 }
 
-@media screen and (max-width: 600px) {
-  footer .social-media {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 body {
   margin: 0;
   background-color: rgba(116, 130, 148, 0.75);
