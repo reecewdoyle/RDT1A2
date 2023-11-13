@@ -60,6 +60,12 @@ header .name-div #sub-text {
     margin-left: 0;
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   background-color: rgba(29, 53, 87, 0.75);
   padding: 16px;
@@ -81,6 +87,12 @@ footer .social-media a i {
   color: #F1FAEE;
 }
 
+@media screen and (max-width: 600px) {
+  footer .social-media {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 body {
   margin: 0;
   background-color: rgba(116, 130, 148, 0.75);

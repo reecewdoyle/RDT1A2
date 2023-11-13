@@ -2,6 +2,12 @@
 @import "../defaults/colours";
 @import "./utils";
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
 footer {
     @include background-properties();
     margin-top: auto;
@@ -33,8 +39,8 @@ footer {
     footer {
         .social-media {
 
-            // margin-left: auto;
-            // margin-right: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }

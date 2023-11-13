@@ -1,1 +1,3 @@
-# RDT1A2
+# T1A2 Portfolio Assignment
+## Reece Doyle
+
