@@ -19,6 +19,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 1rem;
+    margin: 1rem;
 
 .form-div {
     background-color: rgba(255, 255, 255, 0.7);
@@ -29,8 +31,8 @@ main {
         size: 3rem;
         color: $navbar-color-dark;
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
+        // padding-top: 1rem;
+        // padding-bottom: 2rem;
 
     }
 
@@ -52,7 +54,7 @@ main {
                     border: 1px solid $navbar-color-dark;
                     border-radius: 4px;
                     font-size: 1.2rem;
-                    width: 25%;
+                    width: 50%;
                     align-self: center;
 
                     &#form-textarea {

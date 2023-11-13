@@ -3,16 +3,9 @@
 body {
     margin: 0;
     background-color: $background-color-dark-gray;
-
     background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
 }
 
 main {
@@ -20,8 +13,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-family: 'Roboto Mono', monospace;
-        
+        font-family: 'Roboto Mono', monospace;      
       
         .main-image {
             
@@ -43,8 +35,6 @@ main {
                 text-align: center;
             }
         }
-
-
     }
 }
 
@@ -54,5 +44,37 @@ main {
     width: 100%;
     color: $background-color-light-gray;
     font-size: 1.5rem;
+   
+}
+
+@media screen and (max-width: $medium) {
+    main {
+        section {
+            .main-image {
+                img {
+                    width: 180px;          
+                }
+            }
+            
+            .main-text {
+   
+                p {
+                    padding: 5px;
+                    color: $navbar-color-dark;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    background-color: rgba(255, 255, 255, 0.7);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.contact-section {
+    text-align: center;
+    background-color: $contacts-color;
+    width: 100%;
+    color: $background-color-light-gray;
+    font-size: 1.2rem;
    
 }

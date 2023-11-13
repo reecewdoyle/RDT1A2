@@ -4,74 +4,85 @@
 
 header {
     @include background-properties();
-
-    a {
-        text-decoration: none;
-    }
-
-    .logo-name {
-        @media screen and (max-width: $medium) {
-            margin: 48px;
-        }
-    }
-
-        .name {
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    .logo-div {
+            a {
+            text-decoration: none;
+            color: $background-color-light-gray;
             
             #rd-text {
-                color: $background-color-light-gray;
-                font-size: 48px;
-                
+                font-size: 4rem;
             }
             
             #fst-text {
                 color: $background-color-light-gray;
-                font-size: 40px;
-                font-family: 'Roboto Mono', monospace;
-                
+                font-size: 3rem;
+                font-family: 'Roboto Mono', monospace;                  
             }
             
-            #sub-text {
-                color: $background-color-light-gray;
-                font-size: 24px;
-                font-style: italic;
-                
-            }
-        }
-        
-        #nav-items {
-            display: flex;
-            justify-content: space-around;
-            
-            a {
-                color: $text-blue-color;
-                font-size: 24px;
-                background-color: $footer-color;
-                padding: 15px;
-                border: 1px solid $background-color-light-gray;
-                border-radius: 20%;
-            }        
-        }  
-}
 
-@media screen and (min-width: $medium) {
+        }
+    }
+
+    .name-div {
+        margin-bottom: 1rem;
+        #sub-text {
+            color: $background-color-light-gray;
+            font-size: 1.5rem;
+            font-style: italic;
+            }
+
+
+        }
+    }
+
+    #nav-items {
+        margin-left: auto;
         
-        header {
+         a {
+            text-decoration: none;
+            color: $text-blue-color;
+            font-size: 1rem;
+            background-color: $footer-color;
+            padding: 0.5rem;
+            border: 1px solid $background-color-light-gray;
+            border-radius: 20%;
+        }        
+    }  
+
+
+@media screen and (max-width: $medium) {
+    header {
         display: flex;
-        align-items: flex-end;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
 
-        .logo-name {
-            
-            .name {
-                margin-bottom: 0;
+        .logo-div {
+            a {
+                #rd-text {
+                    font-size: 2rem;
+                }
+                #fst-text {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .name-div {
+            #sub-text {
+                font-size: 1rem;
             }
         }
 
         #nav-items {
-            width: 50%;
-        }
+            margin-left: 0;
+        }    
+
+
+
+
     }
 }

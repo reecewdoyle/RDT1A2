@@ -3,58 +3,61 @@ header {
   padding: 16px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
-}
-header a {
-  text-decoration: none;
-}
-@media screen and (max-width: 600px) {
-  header .logo-name {
-    margin: 48px;
-  }
-}
-header .name {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  align-items: flex-start;
 }
-header .name #rd-text {
+header .logo-div a {
+  text-decoration: none;
   color: #F1FAEE;
-  font-size: 48px;
 }
-header .name #fst-text {
+header .logo-div a #rd-text {
+  font-size: 4rem;
+}
+header .logo-div a #fst-text {
   color: #F1FAEE;
-  font-size: 40px;
+  font-size: 3rem;
   font-family: "Roboto Mono", monospace;
 }
-header .name #sub-text {
+header .name-div {
+  margin-bottom: 1rem;
+}
+header .name-div #sub-text {
   color: #F1FAEE;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: italic;
 }
-header #nav-items {
-  display: flex;
-  justify-content: space-around;
+
+#nav-items {
+  margin-left: auto;
 }
-header #nav-items a {
+#nav-items a {
+  text-decoration: none;
   color: #A8DADC;
-  font-size: 24px;
+  font-size: 1rem;
   background-color: #457B9D;
-  padding: 15px;
+  padding: 0.5rem;
   border: 1px solid #F1FAEE;
   border-radius: 20%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
-  header .logo-name .name {
-    margin-bottom: 0;
+  header .logo-div a #rd-text {
+    font-size: 2rem;
+  }
+  header .logo-div a #fst-text {
+    font-size: 1.5rem;
+  }
+  header .name-div #sub-text {
+    font-size: 1rem;
   }
   header #nav-items {
-    width: 50%;
+    margin-left: 0;
   }
 }
 footer {
@@ -74,21 +77,9 @@ footer .social-media a i {
   color: #F1FAEE;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   footer .social-media {
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
-}
-body {
-  margin: 0;
-  background-color: rgba(116, 130, 148, 0.75);
-  background: #748294 url("./images/newy.jpeg") 70% no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */
