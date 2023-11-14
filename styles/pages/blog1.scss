@@ -58,6 +58,10 @@ main {
             border: 1px solid $text-blue-color;
             border-radius: 15%;
         }
+        a:hover {
+            background-color: $navbar-color-dark;
+            transition-duration: 0.5s;
+        }   
 
 }
 
@@ -69,7 +73,7 @@ main {
     main {
         article {
             margin: 0;
-            
+
             h1 {
                 font-size: 1.25rem;
             }

@@ -11,13 +11,25 @@ header .logo-div a {
   text-decoration: none;
   color: #F1FAEE;
 }
+header .logo-div a a:hover {
+  color: #457B9D;
+  transition-duration: 0.5s;
+}
 header .logo-div a #rd-text {
   font-size: 4rem;
+}
+header .logo-div a #rd-text:hover {
+  color: #457B9D;
+  transition-duration: 0.5s;
 }
 header .logo-div a #fst-text {
   color: #F1FAEE;
   font-size: 3rem;
   font-family: "Roboto Mono", monospace;
+}
+header .logo-div a #fst-text:hover {
+  color: #457B9D;
+  transition-duration: 0.5s;
 }
 header .name-div {
   margin-bottom: 1rem;
@@ -26,6 +38,10 @@ header .name-div #sub-text {
   color: #F1FAEE;
   font-size: 1.5rem;
   font-style: italic;
+}
+header .name-div #sub-text:hover {
+  color: #457B9D;
+  transition-duration: 0.5s;
 }
 
 #nav-items {
@@ -39,6 +55,10 @@ header .name-div #sub-text {
   padding: 0.5rem;
   border: 1px solid #F1FAEE;
   border-radius: 20%;
+}
+#nav-items a:hover {
+  background-color: #1D3557;
+  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 600px) {
@@ -85,6 +105,10 @@ footer .social-media {
 footer .social-media a i {
   font-size: 2.5rem;
   color: #F1FAEE;
+}
+footer .social-media a i:hover {
+  color: #457B9D;
+  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 600px) {
