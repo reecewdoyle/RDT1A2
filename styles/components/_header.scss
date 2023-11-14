@@ -13,7 +13,7 @@ header {
             text-decoration: none;
             color: $article-white-solid;
             a:hover {
-                color: $button-bg-color;
+                color: $logo-icon-hover;
                 transition-duration: 0.5s;
             }
             
@@ -21,7 +21,7 @@ header {
                 font-size: 4rem;
             }
             #rd-text:hover {
-                color: $button-bg-color;
+                color: $logo-icon-hover;
                 transition-duration: 0.5s;
             }   
             
@@ -31,7 +31,7 @@ header {
                 font-family: 'Roboto Mono', monospace;                  
             }
             #fst-text:hover {
-                color: $button-bg-color;
+                color: $logo-icon-hover;
                 transition-duration: 0.5s;
             }    
         }
@@ -45,7 +45,7 @@ header {
             font-style: italic;
             }
             #sub-text:hover {
-                color: $button-bg-color;
+                color: $logo-icon-hover;
                 transition-duration: 0.5s;
             } 
     }
