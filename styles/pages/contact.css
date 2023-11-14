@@ -93,6 +93,12 @@ footer .social-media a i {
     margin-right: auto;
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -113,7 +119,7 @@ main {
 }
 main .form-div {
   background-color: rgba(255, 255, 255, 0.7);
-  width: 90%;
+  width: 100%;
 }
 main .form-div h1 {
   font-family: "Roboto Mono", monospace;

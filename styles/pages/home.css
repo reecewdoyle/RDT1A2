@@ -93,6 +93,12 @@ footer .social-media a i {
     margin-right: auto;
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -128,11 +134,16 @@ main section .main-text p {
 }
 
 .contact-section {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 3rem;
   background-color: rgba(230, 57, 70, 0.5);
   width: 100%;
   color: #F1FAEE;
-  font-size: 1.5rem;
+}
+.contact-section p {
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -153,5 +164,7 @@ main section .main-text p {
   background-color: rgba(230, 57, 70, 0.5);
   width: 100%;
   color: #F1FAEE;
+}
+.contact-section p {
   font-size: 1.2rem;
 }/*# sourceMappingURL=home.css.map */

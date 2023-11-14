@@ -93,6 +93,12 @@ footer .social-media a i {
     margin-right: auto;
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   background-color: rgba(116, 130, 148, 0.75);
@@ -148,5 +154,6 @@ main a .article .blog-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
   }
 }/*# sourceMappingURL=blog.css.map */
