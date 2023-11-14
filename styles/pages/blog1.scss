@@ -1,29 +1,26 @@
 @import "../../index.scss";
 
 body {
-    margin: 0;
-    background-color: $background-color-dark-gray;
-
-    background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    margin: 0;
+    background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
 }
+
 main {
         article {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: $article-white;
             padding: 2rem 2rem;
             margin: 2rem;
-            color: $navbar-color-dark;
+            color: $navbar-color-solid;
             font-family: 'Roboto Mono', monospace;
 
             h1 {
@@ -39,7 +36,6 @@ main {
         article img {
             width: 50%;
             clip-path: circle();
-            // margin: 1.5rem;
         }
   }
 .link {
@@ -52,14 +48,14 @@ main {
             text-decoration: none;
             font-family: 'Roboto Mono', monospace;
             size: 2rem;
-            color: $text-blue-color;
-            background-color: $footer-color;
+            color: $button-text-blue;
+            background-color: $button-bg-color;
             padding: 1rem;
-            border: 1px solid $text-blue-color;
+            border: 1px solid $button-text-blue;
             border-radius: 15%;
         }
         a:hover {
-            background-color: $navbar-color-dark;
+            background-color: $navbar-color-solid;
             transition-duration: 0.5s;
         }   
 

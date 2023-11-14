@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-color: $background-color-dark-gray;
     background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -26,16 +25,15 @@ main {
             }
         }
 
-        
         .main-text {
             width: 100%;
 
             p {
                 padding: 5px;
-                color: $navbar-color-dark;
+                color: $navbar-color-solid;
                 font-size: 2rem;
                 font-weight: 500;
-                background-color: rgba(255, 255, 255, 0.7);
+                background-color: $article-white;
                 text-align: center;
             }
         }
@@ -49,12 +47,10 @@ main {
     padding: 3rem;
     background-color: $contacts-color;
     width: 100%;
-    color: $background-color-light-gray;
-    p {
-        font-size: 1.8rem;
-    }
-
-   
+    color: $article-white;
+    font-size: 2rem;
+    // p {
+    // }
 }
 
 
@@ -72,10 +68,10 @@ main {
    
                 p {
                     padding: 5px;
-                    color: $navbar-color-dark;
+                    color: $navbar-color-solid;
                     font-size: 1.2rem;
                     font-weight: 500;
-                    background-color: rgba(255, 255, 255, 0.7);
+                    background-color: $article-white;
                     text-align: center;
                 }
             }
@@ -86,11 +82,9 @@ main {
     text-align: center;
     background-color: $contacts-color;
     width: 100%;
-    color: $background-color-light-gray;
+    color: $article-white;
 
     p {
-
         font-size: 1.2rem;
     }
-   
 }

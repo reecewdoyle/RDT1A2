@@ -27,11 +27,11 @@ footer {
         a {
             i {
                 font-size: 2.5rem;
-                color: $background-color-light-gray;
+                color: $article-white;
                
             }
             i:hover {
-                color: $footer-color;
+                color: $button-bg-color;
                 transition-duration: 0.5s;
                 }
         }

@@ -3,7 +3,7 @@
 body {
     min-height: 100vh;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: $article-white;
 
     background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ main {
     h1 {
         font-family: 'Roboto Mono', monospace;
         size: 3rem;
-        color: $navbar-color-dark;
+        color: $navbar-color-solid;
         text-align: center;
 
 
@@ -47,11 +47,11 @@ main {
                     font-size: 1.5rem;
                     font-family: 'Roboto Mono', monospace;
                     text-align: center;                    
-                    color: $navbar-color-dark;
+                    color: $navbar-color-solid;
                 }
                 
                 .form-input {
-                    border: 1px solid $navbar-color-dark;
+                    border: 1px solid $navbar-color-solid;
                     border-radius: 4px;
                     font-size: 1.2rem;
                     width: 50%;
@@ -81,14 +81,14 @@ main {
                 text-decoration: none;
                 font-family: 'Roboto Mono', monospace;
                 font-size: 1.2rem;
-                color: $text-blue-color;
-                background-color: $footer-color;
-                border: 1px solid $text-blue-color;
+                color: $button-text-blue;
+                background-color: $button-bg-color;
+                border: 1px solid $button-text-blue;
                 border-radius: 4px;
             }
 
             #submit:hover {
-                    background-color: $navbar-color-dark;
+                    background-color: $navbar-color-solid;
                     transition-duration: 0.5s;
             }
         }

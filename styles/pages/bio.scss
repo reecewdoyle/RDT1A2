@@ -1,25 +1,20 @@
 @import "../../index.scss";
 
 body {
-    min-height: 100vh;
-    margin: 0;
-    background-color: $background-color-dark-gray;
-
-    background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    min-height: 100vh;
+    margin: 0;
+    background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 main {
-
     font-family: 'Roboto Mono', monospace;
-    background-color:  rgba(255, 255, 255, 0.8);
-    color: $navbar-color-dark;
+    background-color: $article-white;
+    color: $navbar-color-solid;
     padding: 1.5rem 1.5rem;
     margin: 1rem;
 

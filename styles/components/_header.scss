@@ -11,9 +11,9 @@ header {
     .logo-div {
             a {
             text-decoration: none;
-            color: $background-color-light-gray;
+            color: $article-white-solid;
             a:hover {
-                color: $footer-color;
+                color: $button-bg-color;
                 transition-duration: 0.5s;
             }
             
@@ -21,36 +21,33 @@ header {
                 font-size: 4rem;
             }
             #rd-text:hover {
-                color: $footer-color;
+                color: $button-bg-color;
                 transition-duration: 0.5s;
             }   
             
             #fst-text {
-                color: $background-color-light-gray;
+                color: $article-white-solid;
                 font-size: 3rem;
                 font-family: 'Roboto Mono', monospace;                  
             }
             #fst-text:hover {
-                color: $footer-color;
+                color: $button-bg-color;
                 transition-duration: 0.5s;
-            }  
-            
+            }    
         }
     }
     
     .name-div {
         margin-bottom: 1rem;
         #sub-text {
-            color: $background-color-light-gray;
+            color: $article-white-solid;
             font-size: 1.5rem;
             font-style: italic;
             }
             #sub-text:hover {
-                color: $footer-color;
+                color: $button-bg-color;
                 transition-duration: 0.5s;
             } 
-
-
     }
 }
 
@@ -59,19 +56,18 @@ header {
         
          a {
             text-decoration: none;
-            color: $text-blue-color;
+            color: $button-text-blue;
             font-size: 1rem;
-            background-color: $footer-color;
+            background-color: $button-bg-color;
             padding: 0.5rem;
-            border: 1px solid $background-color-light-gray;
+            border: 1px solid $article-white;
             border-radius: 20%;
         }   
         a:hover {
-            background-color: $navbar-color-dark;
+            background-color: $navbar-color-solid;
             transition-duration: 0.5s;
         }     
     }  
-
 
 @media screen and (max-width: $medium) {
     header {
@@ -99,9 +95,5 @@ header {
         #nav-items {
             margin-left: 0;
         }    
-
-
-
-
     }
 }

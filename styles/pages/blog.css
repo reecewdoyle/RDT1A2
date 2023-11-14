@@ -9,7 +9,7 @@ header {
 }
 header .logo-div a {
   text-decoration: none;
-  color: #F1FAEE;
+  color: rgb(255, 255, 255);
 }
 header .logo-div a a:hover {
   color: #457B9D;
@@ -23,7 +23,7 @@ header .logo-div a #rd-text:hover {
   transition-duration: 0.5s;
 }
 header .logo-div a #fst-text {
-  color: #F1FAEE;
+  color: rgb(255, 255, 255);
   font-size: 3rem;
   font-family: "Roboto Mono", monospace;
 }
@@ -35,7 +35,7 @@ header .name-div {
   margin-bottom: 1rem;
 }
 header .name-div #sub-text {
-  color: #F1FAEE;
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -53,7 +53,7 @@ header .name-div #sub-text:hover {
   font-size: 1rem;
   background-color: #457B9D;
   padding: 0.5rem;
-  border: 1px solid #F1FAEE;
+  border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 20%;
 }
 #nav-items a:hover {
@@ -104,7 +104,7 @@ footer .social-media {
 }
 footer .social-media a i {
   font-size: 2.5rem;
-  color: #F1FAEE;
+  color: rgba(255, 255, 255, 0.7);
 }
 footer .social-media a i:hover {
   color: #457B9D;
@@ -125,7 +125,6 @@ footer .social-media a i:hover {
 
 body {
   margin: 0;
-  background-color: rgba(116, 130, 148, 0.75);
   background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -146,7 +145,7 @@ main a .article {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 2rem 1rem;
   margin: 1rem;
 }
@@ -162,7 +161,7 @@ main a .article .blog-text {
   text-align: center;
 }
 main a .article:hover {
-  border: 2px solid #F1FAEE;
+  border: 2px solid rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (max-width: 600px) {
