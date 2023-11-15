@@ -1,5 +1,7 @@
 @import "../../index.scss";
 
+// Body Styling
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,6 +12,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+// Main Article Styling
 
 main {
     font-family: 'Roboto Mono', monospace;
@@ -57,7 +61,9 @@ main {
     }
 }
 
-@media screen and (max-width: $medium) {
+// 600px Breakpint for Phones
+
+@media screen and (max-width: $phone-breakpoint) {
     main {
         margin: 0;
 
@@ -70,5 +76,3 @@ main {
         }
     }
 }
-
-

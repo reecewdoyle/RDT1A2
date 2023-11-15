@@ -42,7 +42,7 @@ footer {
     }
 }
 
-@media screen and (max-width: $medium) {
+@media screen and (max-width: $phone-breakpoint) {
     footer {
         .social-media {
             margin-left: auto;

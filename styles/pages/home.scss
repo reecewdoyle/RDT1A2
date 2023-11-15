@@ -1,5 +1,7 @@
 @import "../../index.scss";
 
+// Body Styling 
+
 body {
     display: flex;
     flex-direction: column;
@@ -31,7 +33,6 @@ main {
             
             .greeting-text {
                 padding: 5px;
-                // margin-bottom: 1rem;
                 color: $navbar-color-solid;
                 font-size: 2rem;
                 font-weight: 500;
@@ -61,9 +62,9 @@ main {
     }
 }
 
+// 600px Breakpint for Phones
 
-
-@media screen and (max-width: $medium) {
+@media screen and (max-width: $phone-breakpoint) {
     main {
         section {
             .main-image {

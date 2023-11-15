@@ -1,5 +1,7 @@
 @import "../../index.scss";
 
+// Body Styling
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,6 +12,8 @@ body {
     background-size: cover;
     min-height: 100vh;
 }
+
+// Main Article Styling
 
 main {
         article {
@@ -39,6 +43,9 @@ main {
             clip-path: circle();
         }
   }
+
+// Blog Link Styling
+
 .link {
     display: flex;
     justify-content: space-evenly;
@@ -63,12 +70,11 @@ main {
             transition-duration: 0.5s;
         }   
 
-}
+    }
 
+// 600px Breakpint for Phones
 
-
-@media screen and (max-width: $medium) {
-
+@media screen and (max-width: $phone-breakpoint) {
 
     main {
         article {
@@ -82,13 +88,14 @@ main {
                 font-size: 1rem;
             }
 
-            
         }
+
         .link {
             padding: 0.2rem;
+
             a {
                 padding: 0.2rem;
             }
-    }
+        }
     }
 }

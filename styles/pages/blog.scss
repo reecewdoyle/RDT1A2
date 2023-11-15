@@ -1,5 +1,7 @@
 @import "../../index.scss";
 
+// Body Styling
+
 body {
     margin: 0;
     background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
@@ -7,13 +9,14 @@ body {
     background-size: cover;
 }
 
+// Main Article Styling
+
 main {
     a {
         text-decoration: none;
         color: $navbar-color-solid;
         font-family: 'Roboto Mono', monospace;
         
-
         p {
             font-size: 1.5rem;
         }
@@ -49,7 +52,9 @@ main {
     }
 }
 
-@media screen and (max-width: $medium) {
+// 600px Breakpint for Phones
+
+@media screen and (max-width: $phone-breakpoint) {
     main {
         a {
             text-decoration: none;

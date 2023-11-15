@@ -69,7 +69,7 @@ header {
         }     
     }  
 
-@media screen and (max-width: $medium) {
+@media screen and (max-width: $phone-breakpoint) {
     header {
         display: flex;
         flex-direction: column;
