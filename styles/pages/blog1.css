@@ -166,8 +166,11 @@ main article img {
 .link {
   display: flex;
   justify-content: space-evenly;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgba(29, 53, 87, 0.75);
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 .link a {
   text-decoration: none;

@@ -42,8 +42,11 @@ main {
 .link {
     display: flex;
     justify-content: space-evenly;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    flex-direction: row;
+    width: 100%;
+    background-color: $navbar-color;
+    padding: 2rem;
+    margin-bottom: 2rem;
     
         a {
             text-decoration: none;
