@@ -31,7 +31,7 @@ main {
             
             .greeting-text {
                 padding: 5px;
-                margin-bottom: 1rem;
+                // margin-bottom: 1rem;
                 color: $navbar-color-solid;
                 font-size: 2rem;
                 font-weight: 500;
@@ -49,7 +49,17 @@ main {
         }
     }
 }
+.contact-section {
+    text-align: center;
+    color: $article-white;
+    padding: 1;
+    margin: 0;
 
+    .contact-text {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+}
 
 
 
@@ -69,16 +79,16 @@ main {
                 }
             }
         }
-    }
-}
-.contact-section {
-    text-align: center;
-    color: $article-white;
-    padding: 0;
-    margin: 0;
-
-    .contact-text {
-        font-size: 1.2rem;
+        .contact-section {
+            text-align: center;
+            color: $article-white;
+            padding: 0;
+            margin: 0;
         
+            .contact-text {
+                font-size: 1.2rem;
+            }
+        }
     }
 }
+

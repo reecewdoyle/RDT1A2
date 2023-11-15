@@ -12,6 +12,7 @@ main {
         text-decoration: none;
         color: $navbar-color-solid;
         font-family: 'Roboto Mono', monospace;
+        
 
         p {
             font-size: 1.5rem;
@@ -26,7 +27,10 @@ main {
             justify-content: space-between;
             background-color: $article-white;
             padding: 2rem 1rem;
-            margin: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            margin-top: 1.5rem;
             
             .blog-image {
                 width: 20vh;
@@ -63,7 +67,10 @@ main {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 0.5rem;
+                margin-top: 0.5rem;
              }
         }
     }

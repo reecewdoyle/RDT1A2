@@ -152,7 +152,6 @@ main section .main-greeting {
 }
 main section .main-greeting .greeting-text {
   padding: 5px;
-  margin-bottom: 1rem;
   color: #1D3557;
   font-size: 2rem;
   font-weight: 500;
@@ -168,6 +167,17 @@ main section .contact-section {
   width: 100%;
 }
 
+.contact-section {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 1;
+  margin: 0;
+}
+.contact-section .contact-text {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
 @media screen and (max-width: 600px) {
   main section .main-image img {
     width: 180px;
@@ -175,13 +185,13 @@ main section .contact-section {
   main section .main-greeting .greeting-text {
     font-size: 1.2rem;
   }
-}
-.contact-section {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.7);
-  padding: 0;
-  margin: 0;
-}
-.contact-section .contact-text {
-  font-size: 1.2rem;
+  main .contact-section {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    margin: 0;
+  }
+  main .contact-section .contact-text {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=home.css.map */

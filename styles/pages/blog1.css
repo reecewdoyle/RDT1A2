@@ -151,10 +151,11 @@ main article {
 main article h1 {
   font-size: 2.5rem;
 }
-main article p {
+main article .blog-text {
   font-size: 1.5rem;
   text-align: left;
   font-weight: 400;
+  padding: 1rem;
 }
 main article img {
   width: 50%;
