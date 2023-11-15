@@ -147,48 +147,41 @@ main section .main-image img {
   -webkit-clip-path: circle();
           clip-path: circle();
 }
-main section .main-text {
+main section .main-greeting {
   width: 100%;
 }
-main section .main-text p {
+main section .main-greeting .greeting-text {
   padding: 5px;
+  margin-bottom: 1rem;
   color: #1D3557;
   font-size: 2rem;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
 }
-
-.contact-section {
+main section .contact-section {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  padding: 3rem;
+  padding: 1rem;
   background-color: rgba(230, 57, 70, 0.7);
   width: 100%;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 2rem;
 }
 
 @media screen and (max-width: 600px) {
   main section .main-image img {
     width: 180px;
   }
-  main section .main-text p {
-    padding: 5px;
-    color: #1D3557;
+  main section .main-greeting .greeting-text {
     font-size: 1.2rem;
-    font-weight: 500;
-    background-color: rgba(255, 255, 255, 0.7);
-    text-align: center;
   }
 }
 .contact-section {
   text-align: center;
-  background-color: rgba(230, 57, 70, 0.7);
-  width: 100%;
   color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  margin: 0;
 }
-.contact-section p {
+.contact-section .contact-text {
   font-size: 1.2rem;
 }/*# sourceMappingURL=home.css.map */
