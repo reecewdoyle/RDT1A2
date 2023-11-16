@@ -131,7 +131,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  background: #748294 url("../../images/newy1.jpeg") 70% no-repeat;
+  background: url("../../images/newy1.jpeg") 70% no-repeat;
+  background-color: #457B9D;
   background-attachment: fixed;
   background-size: cover;
 }
