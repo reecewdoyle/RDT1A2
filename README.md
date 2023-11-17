@@ -10,19 +10,17 @@
 
     6.1 [Homepage](#homepage)
 
-
-    6.2 [Bio Page](#Bio-Page)
+    6.2 [Bio Page](#bio-page)
 
     6.3 [Blog Index](#blog-index)
 
     6.4 [Blog Post](#blog-post)
 
-    6.5 [Contact Form](#contact-form)
+    6.5 [Contact Page](#contact-page)
 
 7. [Sitemap](#sitemap) 
 
 8. [Wireframes](#wireframes)
-    
     
     8.1 [Homepage Wireframe](#homepage-wireframe)
 
@@ -132,7 +130,7 @@ The blog index contains:
  [Back to index](#index)
  ***
 
-### Blog Posts
+### Blog Post
 Each blog post contains:
 
 - A large humourous image that adds meaning and context to the article.
@@ -152,6 +150,8 @@ The contact page contains:
     - Subject
     - Message
 
+ [Back to index](#index)
+ ***
 
 ### Sitemap
 ![Sitemap](docs/1-sitemap.png)
