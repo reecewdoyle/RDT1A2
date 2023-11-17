@@ -7,11 +7,8 @@ body {
     background-color: $background-color;
     background-attachment: fixed;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
-
-
 }
 
 main {
@@ -31,8 +28,6 @@ main {
         size: 3rem;
         color: $navbar-color-solid;
         text-align: center;
-
-
     }
 
         form {
@@ -63,8 +58,6 @@ main {
                     &:not(#form-textarea) {
                         height: 35px;
                     }
-
-
                 }
             }
         }
