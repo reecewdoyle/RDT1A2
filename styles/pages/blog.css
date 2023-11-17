@@ -168,7 +168,7 @@ main a .article .blog-text {
   text-align: center;
 }
 main a .article:hover {
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(230, 57, 70, 0.7);
 }
 
 @media screen and (max-width: 600px) {
