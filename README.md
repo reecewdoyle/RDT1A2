@@ -304,9 +304,17 @@ Bio Page - Mobile - Bottom
  ![Blog-ss-tablet-top](docs/37-ss-blog-tablet-top.png)
  Blog Index - Tablet - Bottom
  ![Blog-ss-tablet-bottom](docs/38-ss-blog-tablet-bottom.png)
+
+
  Blog Index - Mobile - Top
+
+
  ![Blog-ss-phone-top](docs/39-ss-blog-phone-top.png)
+
+
  Blog Index - Mobile - Bottom
+
+ 
  ![Blog-ss-phone-bottom](docs/40-ss-blog-phone-bottom.png)
 
  [Back to index](#index)
@@ -321,9 +329,17 @@ Bio Page - Mobile - Bottom
  ![Blogpost-ss-tablet-top](docs/43-ss-blogpost-tablet-top.png)
  Blog Post - Tablet - Bottom
  ![Blogpost-ss-tablet-bottom](docs/44-ss-blogpost-tablet-bottom.png)
+
+
  Blog Post - Mobile - Top
+
+
  ![Blogpost-ss-mobile-top](docs/45-ss-blogpost-phone-top.png)
+
+
  Blog Post - Mobile - Bottom
+
+
  ![Blogpost-ss-mobile-bottom](docs/46-ss-blogspot-phone-bottom.png)
 
  [Back to index](#index)
