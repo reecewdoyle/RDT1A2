@@ -177,7 +177,11 @@ Homepage - Desktop
 ![Homepage-desktop](docs/2-homepage-desktop.png)
 Homepage - Tablet
 ![Homepage-tablet](docs/3-homepage-tablet.png)
+
+
 Homepage - Mobile
+
+
 ![Homepage-mobile](docs/4-homepage-phone.png)
 
  [Back to index](#index)
@@ -192,8 +196,14 @@ Bio Page - Tablet - Top
 Bio Page - Tablet - Bottom
 ![Bio-tablet-bottom](docs/8-bio-tablet-bottom.png)
 Bio Page - Mobile - Top
+
+
 ![Bio-mobile-top](docs/9-bio-phone-top.png)
+
+
 Bio Page - Mobile - Bottom
+
+
 ![Bio-mobile-bottom](docs/10-bio-phone-bottom.png)
 
  [Back to index](#index)
@@ -207,9 +217,17 @@ Blog Index - Tablet - Top
 ![Blog-tablet-top](docs/13-blog-tablet-top.png)
 Blog Index - Tablet - Bottom
 ![Blog-tablet-bottom](docs/14-blog-tablet-bottom.png)
+
+
 Blog Index - Mobile - Top
+
+
 ![Blog-phone-top](docs/15-blog-phone-top.png)
+
+
 Blog Index - Mobile - Bottom
+
+
 ![Blog-phone-bottom](docs/16-blog-phone-bottom.png)
 
  [Back to index](#index)
@@ -224,8 +242,14 @@ Blog Post - Tablet - Top
 Blog Post - Tablet - Bottom
 ![Blogpost-tablet-bottom](docs/20-blogpost-tablet-bottom.png)
 Blog Post - Mobile - Top
+
+
 ![Blogpost-phone-top](docs/21-blogpost-phone-top.png)
+
+
 Blog Post - Mobile - Bottom
+
+
 ![Blogpost-phone-bottom](docs/22-blogpost-phone-bottom.png)
 
  [Back to index](#index)
@@ -236,6 +260,8 @@ Contact Page - Desktop
 Contact Page - Tablet
 ![Contact-tablet](docs/24-contact-tablet.png)
 Contact Page - Mobile
+
+
 ![Contact-phone](docs/25-contact-phone.png)
 
  [Back to index](#index)
