@@ -274,7 +274,11 @@ Homepage - Desktop
 ![Homepage-ss-desktop](docs/26-ss-homepage-desktop.png)
 Homepage - Tablet
 ![Homepage-ss-tablet](docs/27-ss-homepage-tablet.png)
+
+
 Homepage - Mobile
+
+
 ![Homepage-ss-phone](docs/28-ss-homepage-phone.png)
 
  [Back to index](#index)
@@ -288,9 +292,17 @@ Bio Page - Tablet - Top
 ![Bio-ss-tablet-top](docs/31-ss-bio-tablet-top.png)
 Bio Page - Tablet - Bottom
 ![Bio-ss-phone-bottom](docs/32-ss-bio-tablet-bottom.png)
+
+
 Bio Page - Mobile - Top
+
+
 ![Bio-ss-phone-top](docs/33-ss-bio-phone-top.png)
+
+
 Bio Page - Mobile - Bottom
+
+
 ![Bio-ss-phone-bottom](docs/34-ss-bio-phone-bottom.png)
 
  [Back to index](#index)
@@ -314,7 +326,7 @@ Bio Page - Mobile - Bottom
 
  Blog Index - Mobile - Bottom
 
- 
+
  ![Blog-ss-phone-bottom](docs/40-ss-blog-phone-bottom.png)
 
  [Back to index](#index)
@@ -350,7 +362,11 @@ Bio Page - Mobile - Bottom
  ![ContactPage-desktop](docs/47-ss-contact-desktop.png)
  Contact Page - Tablet
  ![ContactPage-tablet](docs/48-ss-contact-tablet.png)
+
+
  Contact Page - Mobile
+
+ 
  ![ContactPage-mobile](docs/49-ss-contact-phone.png)
 
  [Back to index](#index)
